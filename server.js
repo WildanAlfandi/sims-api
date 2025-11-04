@@ -8,3 +8,5 @@ app.listen(PORT, () => {
     console.log(`📝 Environment: ${process.env.NODE_ENV}`);
     console.log(`🌐 Access at: http://localhost:${PORT}`);
 });
+
+module.exports = app;
